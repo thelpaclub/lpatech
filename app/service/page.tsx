@@ -8,7 +8,7 @@ import SerivePageCard from '@/components/sub/ServicePageCard'
 import axios from 'axios'
 
 
-const page = () => {
+const Page = () => {
     const [jobsData, setJobsData] = useState<any[]>([])
 
 
@@ -64,4 +64,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
 
         <div className='flex flex-row gap-4 max-sm:hidden'>
-          {Socials.map((social) => <Iconify classNames=' text-2xl cursor-pointer' icon={social.icon} onClick={() => {
+          {Socials.map((social, idx) => <Iconify key={idx} classNames=' text-2xl cursor-pointer' icon={social.icon} onClick={() => {
             window.open(String(social.url))
           }} />)}
         </div>

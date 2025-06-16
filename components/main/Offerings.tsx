@@ -40,7 +40,7 @@ const Offerings = () => {
             className='flex flex-col justify-left gap-3 h-full w-[60%] max-sm:w-full'
           >
             <p className="text-lg text-gray-400 my-5 max-w-[400px]">
-              For years, the software testing industry has spoken endlessly about the need to "upgrade" — from manual to automation testing. Every job post now screams "Selenium", "Java", "API Testing", "Automation Frameworks" — but here’s the harsh truth no one talks about:
+              For years, the software testing industry has spoken endlessly about the need to &ldquo;upgrade&rdquo; — from manual to automation testing. Every job post now screams &ldquo;Selenium&rdquo;, &ldquo;Java&rdquo;, &ldquo;API Testing&rdquo;, &ldquo;Automation Frameworks&rdquo; — but here&apos;s the harsh truth no one talks about:
             </p>
 
             <p className='text-xl Welcome-text max-w-[400px]'>
@@ -56,11 +56,11 @@ const Offerings = () => {
             </p>
             <ul className='text-lg text-gray-400 max-w-[400px] list-disc'>
               <li>You already know how to code.</li>
-              <li>You’re already confident in tools like Git, Postman, or TestNG.</li>
+              <li>You&apos;re already confident in tools like Git, Postman, or TestNG.</li>
               <li>You just need syntax, not real-world application</li>
             </ul>
             <p className='text-lg text-gray-400 my-5 max-w-[400px]'>
-              But manual testers who’ve spent years working on test cases, functional flows, and business validations often feel lost when trying to switch. The real gap is not just knowledge — it’s clarity, mentorship, and community.
+              But manual testers who&apos;ve spent years working on test cases, functional flows, and business validations often feel lost when trying to switch. The real gap is not just knowledge — it&apos;s clarity, mentorship, and community.
             </p>
             <div className=' w-[100px] h-[2px] bg-gray-400' />
             <p className='text-lg text-gray-400 mt-5 mb-1 max-w-[400px]'>
@@ -70,10 +70,10 @@ const Offerings = () => {
               <li>Overwhelmed: So many tools. Where to start?</li>
               <li>Lack of Direction: No clear roadmap to go from manual to automation.</li>
               <li>Lack of Direction: No clear roadmap to go from manual to automation.</li>
-              <li>Confidence Gap: “Can I even learn programming at this stage?”</li>
+              <li>Confidence Gap: &ldquo;Can I even learn programming at this stage?&rdquo;</li>
             </ul>
             <p className='text-2xl font-semibold tracking-wide my-5 Welcome-text max-w-[400px]'>
-              And that's exactly why we started The LPA Tech.
+              And that&apos;s exactly why we started The LPA Tech.
             </p>
             <motion.div
               onClick={() => setIsModalOpen(true)}
