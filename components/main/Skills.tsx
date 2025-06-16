@@ -4,7 +4,7 @@ import { Backend_skill, Frontend_skill, Other_skill } from '../../constants'
 import React from 'react'
 import SkillDataProvider from '../sub/SkillDataProvider'
 import SkillText from '../sub/SkillText'
-import Lottie from 'react-lottie'
+import Lottie from 'lottie-react'
 import astrounautJson from '../../public/lottie-assets/floating-astronaut.json'
 
 const lottieAnimDefaultOptions = {
@@ -58,9 +58,7 @@ const Skills = () => {
 
       <div className='w-full h-full absolute'>
         <div className='w-full h-full z[-10] opacity-30 absolute flex items-center justify-center bg-cover'>
-          <Lottie options={{
-            animationData: astrounautJson
-          }} />
+          <Lottie animationData={astrounautJson} autoPlay={true} rendererSettings={{ preserveAspectRatio: "xMidYMid slice" }} loop={true} style={{ height: 500, width: 500 }} />
         </div>
 
       </div>

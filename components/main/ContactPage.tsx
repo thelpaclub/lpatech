@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import Lottie from 'react-lottie'
+import Lottie from 'lottie-react'
 import SatelliteJson from '@/public/lottie-assets/satellite.json'
 import ContactForm from '../sub/ContactForm'
 import Iconify from '../utils/Iconify'
@@ -41,7 +41,7 @@ const ContactPage = () => {
       <ContactForm />
       <div className='w-full h-full absolute'>
         <div className='w-full h-full z[-10] opacity-30 absolute flex items-center justify-center bg-cover'>
-          <Lottie options={lottieAnimDefaultOptions} height={1000} width={1000} />
+          <Lottie animationData={SatelliteJson} autoPlay={true} rendererSettings={{ preserveAspectRatio: "xMidYMid slice" }} loop={true} style={{ height: 700, width: 700 }} />
         </div>
 
       </div>

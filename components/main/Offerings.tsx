@@ -7,7 +7,7 @@ import OfferingText from '../sub/OfferingText'
 import OfferingDataProvider from '../sub/OfferingDataProvider'
 import { offerings } from '@/constants/offeringData'
 import magicYoga from '@/public/lottie-assets/magic-yoga.json'
-import Lottie from 'react-lottie'
+import Lottie from 'lottie-react'
 import Iconify from '../utils/Iconify'
 import { slideInFromLeft } from '@/utils/motions'
 import MissionModal from '../sub/MissionModal'
@@ -83,7 +83,7 @@ const Offerings = () => {
               Learn More
             </motion.div>
           </div>
-          <Lottie options={lottieAnimDefaultOptions} />
+          <Lottie animationData={magicYoga} autoPlay={true} rendererSettings={{ preserveAspectRatio: "xMidYMid slice" }} loop={true} style={{ height: 800, width: 800 }} />
         </div>
       </div>
     </div >

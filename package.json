@@ -15,6 +15,7 @@
     "formik": "^2.4.5",
     "html-react-parser": "^5.2.5",
     "isomorphic-dompurify": "^2.17.0",
+    "lottie-react": "^2.4.1",
     "mongoose": "^8.15.2",
     "next": "14.1.0",
     "react": "^18",
@@ -22,7 +23,6 @@
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^5.1.0",
-    "react-lottie": "^1.2.4",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
@@ -32,7 +32,6 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@types/react-lottie": "^1.2.10",
     "@types/uuid": "^9.0.8",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
